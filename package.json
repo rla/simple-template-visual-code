@@ -4,12 +4,14 @@
     "description": "Syntax support for SWI-Prolog HTML templating language Simple Template.",
     "version": "0.0.1",
     "author": "Raivo Laanemets",
+    "publisher": "rlaanemets",
     "engines": {
         "vscode": "^1.39.0"
     },
     "categories": [
         "Programming Languages"
     ],
+    "repository": "git@github.com:rla/simple-template-visual-code.git",
     "contributes": {
         "grammars": [
             {
