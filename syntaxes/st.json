@@ -1,0 +1,22 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Simple Template",
+	"injectionSelector": "L:text.html",
+	"patterns": [
+		{
+			"include": "#st"
+		}
+	],
+	"repository": {
+		"st": {
+			"patterns": [
+				{
+					"begin": "{{",
+					"end": "}}",
+					"name": "text.html.st"
+				}
+			]
+		}
+	},
+	"scopeName": "text.html.st"
+}
